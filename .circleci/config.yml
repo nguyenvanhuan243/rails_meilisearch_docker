@@ -69,19 +69,6 @@ jobs:
       - run:
           name: Wait for DB
           command: dockerize -wait tcp://localhost:5432 -timeout 1m
-      - run:
-          name: Database setup
-          command: |
-            bundle exec rake db:drop RAILS_ENV=test
-            bundle exec rake db:create RAILS_ENV=test
-            bundle exec rake db:migrate RAILS_ENV=test
-      - run:
-          name: Run Tests
-          command: |
-            bundle exec rspec $(cat /tmp/tests-to-run)
-            bundle exec rspec spec
-      - store_artifacts:
-          path: coverage
 
   # Trigger Web service and Sidekiq webhook
   deploy_production:

@@ -1,5 +1,7 @@
 # README
 
+# New app app with docker: ```rails new rails_app_new --main -database=psql```
+
 # Meilisearch: https://www.meilisearch.com/
 
 # Cloud: https://cloud.meilisearch.com/projects

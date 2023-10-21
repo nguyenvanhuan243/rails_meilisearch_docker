@@ -8,8 +8,8 @@
 
 
 # Docker
-build: docker-compose build
-start: docker-compose up
+build: ``` docker-compose build ```
+start: ``` docker-compose up ```
 
 # Meilisearch Install
 

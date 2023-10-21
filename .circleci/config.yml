@@ -3,7 +3,7 @@ jobs:
   build:
     parallelism: 4
     docker:
-      - image: cimg/ruby:3.1.4-browsers
+      - image: cimg/ruby:3.1.2
         environment:
           BUNDLE_JOBS: 3
           BUNDLE_RETRY: 3
@@ -38,12 +38,6 @@ jobs:
           name: Which bundler?
           command: bundle -v
 
-    # Restore bundle cache
-      - restore_cache:
-          keys:
-            - rails-bundle-v2-{{ checksum "Gemfile.lock" }}
-            - rails-bundle-v2-
-          
     # Install bundler  
       - run:
           name: Bundle Install

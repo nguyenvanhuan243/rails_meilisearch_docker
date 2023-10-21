@@ -2,6 +2,7 @@
 
 # New app app with docker: ```rails new rails_app_new --main -database=psql```
 
+
 # Meilisearch: https://www.meilisearch.com/
 
 # Cloud: https://cloud.meilisearch.com/projects
@@ -14,6 +15,8 @@ build: ``` docker-compose build ```
 start: ``` docker-compose up ```
 
 # Meilisearch Install
+
+# Gem: https://github.com/meilisearch/meilisearch-ruby
 
 # frozen_string_literal: true
 

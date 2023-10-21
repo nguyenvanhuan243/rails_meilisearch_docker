@@ -77,7 +77,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Trigger Deploy Bscexchange Finance
+          name: Trigger Deploy MeiliSearch
           command: |
             curl -s "https://api.render.com/deploy"
 # Workflows

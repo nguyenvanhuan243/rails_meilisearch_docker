@@ -42,3 +42,5 @@
 //   -H 'x-meilisearch-client: Meilisearch mini-dashboard (v0.2.11) ; Meilisearch instant-meilisearch (v0.11.1) ; Meilisearch JavaScript (v0.31.1)' \
 //   --data-raw '{"q":"","facets":[],"limit":21,"offset":0}' \
 //   --compressed
+
+// Api docs: https://www.meilisearch.com/docs/reference/api/search#response

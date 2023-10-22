@@ -44,3 +44,5 @@
 //   --compressed
 
 // Api docs: https://www.meilisearch.com/docs/reference/api/search#response
+
+// Core API: https://bump.sh/meilisearch/doc/meilisearch/group/endpoint-documents
